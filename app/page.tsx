@@ -38,9 +38,15 @@ export default function HomePage() {
               Contact
             </Link>
             <ThemeSwitcher />
-            <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600">
+            <a
+              href="https://serenityspace-three.vercel.app/signup/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600">
               Get Started
-            </Button>
+              </Button>
+            </a>
           </nav>
         </div>
       </header>
@@ -65,19 +71,31 @@ export default function HomePage() {
               wellness journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 text-lg px-8"
+              <a
+                href="https://serenityspace-three.vercel.app/signup/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Start Your Journey
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-lg px-8 border-slate-300 hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-800"
-              >
-                Learn More
-              </Button>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 text-lg px-8"
+                >
+                  Start Your Journey
+                </Button>
+              </a>
+                <a
+                href="https://serenityspace-three.vercel.app/login/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 border-slate-300 hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-800"
+                >
+                  Sign In
+                </Button>
+                </a>
             </div>
           </div>
         </div>
@@ -218,90 +236,17 @@ export default function HomePage() {
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
                   Join thousands of users who have improved their mental wellness with Serenity Space.
                 </p>
-                <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600">
+                <a
+                  href="https://serenityspace-three.vercel.app/signup/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600">
                   Get Started Today
-                </Button>
+                  </Button>
+                </a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-white dark:bg-slate-900">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-slate-100 mb-4">Get in Touch</h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300">
-              Have questions or want to learn more? We'd love to hear from you.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-6">Contact Information</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-medium text-slate-800 dark:text-slate-100">Email</h4>
-                  <p className="text-slate-600 dark:text-slate-300">hello@serenityspace.com</p>
-                </div>
-                <div>
-                  <h4 className="font-medium text-slate-800 dark:text-slate-100">Support</h4>
-                  <p className="text-slate-600 dark:text-slate-300">support@serenityspace.com</p>
-                </div>
-                <div>
-                  <h4 className="font-medium text-slate-800 dark:text-slate-100">Hours</h4>
-                  <p className="text-slate-600 dark:text-slate-300">Monday - Friday, 9AM - 6PM EST</p>
-                </div>
-              </div>
-            </div>
-            <Card className="border-0 shadow-lg dark:bg-slate-800">
-              <CardHeader>
-                <CardTitle className="dark:text-slate-100">Send us a message</CardTitle>
-                <CardDescription className="dark:text-slate-300">
-                  Fill out the form below and we'll get back to you as soon as possible.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label
-                      htmlFor="firstName"
-                      className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
-                    >
-                      First Name
-                    </label>
-                    <Input id="firstName" placeholder="John" />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="lastName"
-                      className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
-                    >
-                      Last Name
-                    </label>
-                    <Input id="lastName" placeholder="Doe" />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">
-                    Email
-                  </label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
-                  >
-                    Message
-                  </label>
-                  <Textarea id="message" placeholder="Tell us how we can help..." rows={4} />
-                </div>
-                <Button className="w-full bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600">
-                  Send Message
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -351,6 +296,7 @@ export default function HomePage() {
           </div>
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-300">
             <p>&copy; 2024 Serenity Space. All rights reserved.</p>
+            <p>Made for BuildVerse Hackathon by Mohammed Shaik Sahil and Mohammed Ifaanuddin</p>
           </div>
         </div>
       </footer>
