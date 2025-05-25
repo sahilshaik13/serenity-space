@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Serenity Space - Mental Health Care Platform",
+  title: "SerenitySpace - Mental Health Care Platform",
   description: "Comprehensive mental health care application for anxiety, stress, and depression support",
   generator: "v0.dev",
 }
