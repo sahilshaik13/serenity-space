@@ -31,12 +31,6 @@ export default function HomePage() {
             >
               About
             </Link>
-            <Link
-              href="#contact"
-              className="text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 transition-colors"
-            >
-              Contact
-            </Link>
             <ThemeSwitcher />
             <a
               href="https://serenityspace-three.vercel.app/signup/"
