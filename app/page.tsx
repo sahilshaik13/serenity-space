@@ -16,7 +16,7 @@ export default function HomePage() {
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-teal-500 rounded-lg flex items-center justify-center">
               <Brain className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-semibold text-slate-800 dark:text-slate-200">Serenity Space</span>
+            <span className="text-xl font-semibold text-slate-800 dark:text-slate-200">SerenitySpace</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link
@@ -186,10 +186,10 @@ export default function HomePage() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-slate-100 mb-6">
-              About Serenity Space
+              About SerenitySpace
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              Serenity Space is a comprehensive mental health care platform designed to make mental wellness accessible
+              SerenitySpace is a comprehensive mental health care platform designed to make mental wellness accessible
               to everyone. We combine evidence-based therapeutic approaches with cutting-edge AI technology to provide
               personalized support for individuals managing anxiety, stress, and depression.
             </p>
@@ -228,7 +228,7 @@ export default function HomePage() {
                 </div>
                 <h4 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-2">Start Your Journey</h4>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Join thousands of users who have improved their mental wellness with Serenity Space.
+                  Join thousands of users who have improved their mental wellness with SerenitySpace.
                 </p>
                 <a
                   href="https://serenityspace-three.vercel.app/signup/"
@@ -254,7 +254,7 @@ export default function HomePage() {
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-teal-500 rounded-lg flex items-center justify-center">
                   <Brain className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-semibold">Serenity Space</span>
+                <span className="text-xl font-semibold">SerenitySpace</span>
               </div>
               <p className="text-slate-300">
                 Your comprehensive mental health care platform for anxiety, stress, and depression support.
@@ -289,7 +289,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-300">
-            <p>&copy; 2024 Serenity Space. All rights reserved.</p>
+            <p>&copy; 2024 SerenitySpace. All rights reserved.</p>
             <p>Made for BuildVerse Hackathon by Mohammed Shaik Sahil and Mohammed Ifaanuddin</p>
           </div>
         </div>
